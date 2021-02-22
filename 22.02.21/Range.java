@@ -1,24 +1,19 @@
 import java.util.Iterator;
 
 public class Range implements Iterable<Integer> {
-    private final int end;
-    private int counter;
-    private int start;
+    protected final int length;
+    protected int counter;
 
-    public Range(int start, int end) {
-        this.start = start
-        counter = start;
-        this.end = end;
-        if (end < start){
-            System.out.println("end < start");
-        }
+    public Range(int length) {
+        this.length = length;
+        counter = 0;
     }
 
     public Iterator<Integer> iterator() {
         return new Iterator<Integer>() {
             @Override
             public boolean hasNext() {
-                return counter < end;
+                return counter < length;
             }
 
             @Override
