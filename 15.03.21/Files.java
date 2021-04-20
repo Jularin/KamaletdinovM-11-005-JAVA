@@ -1,6 +1,3 @@
-package Homeworks.SecondSemester.Month03.HomeworkTo15;
-
-
 import java.io.File;
 import java.util.ArrayDeque;
 import java.util.Queue;

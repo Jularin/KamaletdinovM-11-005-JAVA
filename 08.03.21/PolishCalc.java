@@ -1,5 +1,3 @@
-package Homeworks.SecondSemester.Month03.HomeworkTo08;
-
 import Methods.Methods;
 
 import java.util.Stack;
